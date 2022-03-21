@@ -3,8 +3,8 @@ import torch
 
 #data_dir = os.getcwd() + '/data/clue/'
 #data_dir = os.getcwd() + '/data/resume/'
-data_dir = os.getcwd() + '\\data\\newdz_plus\\'
-#data_dir = os.getcwd() + '\\data\\newdz\\'
+#data_dir = os.getcwd() + '\\data\\newdz_plus\\'
+data_dir = os.getcwd() + '\\data\\newdz\\'
 label_dir=data_dir+'label.npz'
 label_plus_dir = data_dir+'label_plus.npz'
 train_dir = data_dir + 'train.npz'
@@ -17,10 +17,10 @@ files=['label']
 bert_model = 'pretrained_bert_models\\bert-base-chinese\\'
 roberta_model = 'pretrained_bert_models\\chinese_roberta_wwm_large_ext\\'
 #model_dir = os.getcwd() + '/experiments/resume/'
-model_dir = os.getcwd() + '\\experiments\\newdz_plus\\'
+model_dir = os.getcwd() + '\\experiments\\newdz\\'
 log_dir = model_dir + 'train.log'
-case_dir = os.getcwd() + '\\case\\newdz_plus\\bad_case.txt'
-test_result_dir = os.getcwd() + '\\experiments\\newdz_plus\\result.txt'
+case_dir = os.getcwd() + '\\case\\newdz\\bad_case.txt'
+test_result_dir = os.getcwd() + '\\experiments\\newdz\\result.txt'
 # 训练集、验证集划分比例
 dev_split_size = 0.1
 test_split_size=0.5
